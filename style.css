@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    height: 50vh;
+    width: 80vh;
+    overflow: hidden;
+}
+
+.slides{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    transition: all 1s ease-in-out;
+}
+
+button{
+    height: 3vh;
+    width: 7vh;
+    border: none;
+    background-color: orange;
+    transform: translateY(30vh) translateX(-50vh);
+    margin-left: 2vh;
+}
